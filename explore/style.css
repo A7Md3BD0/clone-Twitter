@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.my-page i {
+  font-weight: bolder;
+}
+.my-page span {
+  font-weight: bolder;
+}
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+/* start header */
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 5%;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 75%;
+}
+.nav a {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  padding: 8px 25px 8px 8px;
+  width: fit-content;
+}
+.nav a i {
+  font-size: 3rem;
+  margin-right: 15px;
+}
+header a:hover {
+  background-color: rgb(47, 51, 54);
+  border-radius: 9999px;
+}
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  width: 75%;
+  height: 50px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 700;
+}
+.tweet-button:hover {
+  background-color: rgba(29, 155, 240, 0.9);
+}
+.account-main {
+  width: 100%;
+  height: 25%;
+  padding-top: 105px;
+}
+.account-main a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px 8px 15px;
+  margin-right: 10px;
+}
+.images {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.account-det {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 50px;
+  font-size: 1.5rem;
+}
+.name-acc {
+  font-weight: 500;
+}
+.name-ac {
+  color: rgb(110, 118, 125);
+}
+/* end header */
+
+.main {
+  width: 45%;
+  margin-left:25%;
+  border-right: 1px solid rgb(47, 51, 54);
+  border-left: 1px solid rgb(47, 51, 54);
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+.headerr {
+  display: flex;
+  width: 100%;
+  color: white;
+}
+#srch {
+  margin-top: 3px;
+  width: 100%;
+  height: 50px;
+  border-radius: 9999px;
+  color: rgb(47, 51, 54);
+  background-color: rgb(47, 51, 54);
+  font-size: 1.5rem;
+  padding: 20px;
+  border-color: black;
+}
+.headerr i {
+  color: white;
+  padding: 3%;
+}
+.adress{
+  display: flex;
+  color:#E7E9EA;
+  font-size: 1.5rem;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(47, 51, 54);
+  cursor: pointer;
+}
+.stickey{
+  position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.f{
+  padding-bottom: 10px;
+  border-bottom: 5px solid #4F9CF0 ;
+  
+}
+.trending{
+  width: 100%;
+  height: 100%;
+}
+.trend-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  padding: 0px 15px;
+  color: rgb(110, 118, 125);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending p {
+  color: white;
+  direction: rtl;
+  font-size: 2rem;
+
+}
+.trending span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.trend-item:hover {
+  background-color: #1c1e22;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.ss{
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+.following{
+  padding: 10px;
+  color: white;
+}
+.acc-main{
+  width: 100%;
+  height: 25%;
+  margin-top: 10px;
+}
+.acc-main:hover{
+  background-color: #1c1e22;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.acc-main a{
+  text-decoration: none;
+  display: flex;
+  color: white;
+
+}
+.acc-main button{
+  border-radius: 9999px ;
+  width: 15%;
+  height: 40px;
+  padding: 10px;
+  font-weight: 800;
+  margin-left: 50%;
+  
+}
+.acc-det{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 50px;
+  font-size: 1.5rem;
+}
+.acc-main p{
+  direction: rtl;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.more {
+  text-decoration: none;
+  color: #4F9CF0;
+  font-size: 1.3rem;  
+  align-items: center;
+padding: 2%;
+}
+.more:hover{
+  cursor: pointer;
+  background-color: #1c1e22;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer{
+  cursor: pointer;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-left: 70%;
+  position: absolute;
+  top: 50px;
+  color: gray;
+}
+#more {
+  background-color: black;
+  color: gray;
+  border: none;
+}
