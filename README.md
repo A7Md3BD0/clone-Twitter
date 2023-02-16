@@ -1,2 +1,2 @@
 # clone-Twitter
-clone twitter bu html and css  not responsive
+clone twitter by html and css  not responsive
